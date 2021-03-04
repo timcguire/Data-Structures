@@ -73,6 +73,11 @@ stack::stack(const stack& Org)
 		p = p->next;
 	}
 }
+
+bool stack::empty()
+{
+	return s_top == 0;
+}
 /*
 int main()
 {

@@ -1,3 +1,4 @@
 ﻿  infix.cpp
-C:\Dev\Module7\Module7\infix.cpp(76,20): warning C4018: '<': signed/unsigned mismatch
-  Module7.vcxproj -> C:\Dev\Module7\Debug\Module7.exe
+C:\DevProg\Data-Structures\Module7\Module7\infix.cpp(137,21): warning C4018: '<': signed/unsigned mismatch
+  LINK : C:\DevProg\Data-Structures\Module7\Debug\Module7.exe not found or not built by the last incremental link; performing full link
+  Module7.vcxproj -> C:\DevProg\Data-Structures\Module7\Debug\Module7.exe

@@ -22,7 +22,7 @@ public:
 	void pop();
 	void push(const stack_element&);
 	void print();
-
+	bool empty();
 private:
 	stack_node* s_top;
 };
