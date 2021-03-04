@@ -2,6 +2,18 @@
 
 using namespace std;
 
+/**************************************************************************************************************
+* Name: Deconstructor
+* 
+* Precondition: A stack object exists if it was declared
+* 
+* Postcondition: The stack object freed up the memory that was allocated by going through the stack and popping 
+* off each item until it was empty
+* 
+* Description: pops off each item within the stack until the stack is empty
+* 
+***************************************************************************************************************/
+
 stack::~stack()
 {
 	/* cout << "Inside !stack \n";*/
@@ -10,6 +22,18 @@ stack::~stack()
 		pop();
 	}
 }
+
+/**************************************************************************************************************
+* Name: Pop
+*
+* Precondition: A stack object exists if it was initialized that has data inside it
+*
+* Postcondition: the item off the top of the stack was removed
+*
+* Description: removes the top of the stack object
+*
+***************************************************************************************************************/
+
 
 void stack::pop()
 {
@@ -24,6 +48,16 @@ void stack::pop()
 	}
 }
 
+/**************************************************************************************************************
+* Name: Push
+*
+* Precondition: a stack object exists if it was initialized
+*
+* Postcondition: a stack_element was added to the top of the stack object
+*
+* Description: adds a stack_element to the top of the stack object
+*
+***************************************************************************************************************/
 
 
 void stack::push(const stack_element& item)
@@ -35,6 +69,18 @@ void stack::push(const stack_element& item)
 	s_top = p;
 }
 
+/**************************************************************************************************************
+* Name: Print
+*
+* Precondition: A stack object exists if it was initialized
+*
+* Postcondition: each linked stack_node was printed out in the stack starting with the top of the stack
+*
+* Description: prints out all the items contained in the stack starting at the top
+*
+***************************************************************************************************************/
+
+
 void stack::print()
 {
 	/* cout << "Inside print \n";*/
@@ -44,6 +90,18 @@ void stack::print()
 		cout << p->data << endl;
 	}
 }
+
+/**************************************************************************************************************
+* Name: Top
+*
+* Precondition: A stack object exists if it was initialized 
+*
+* Postcondition: the top stack_element was returned from the stack
+*
+* Description: returns the top stack_element of the stack
+*
+***************************************************************************************************************/
+
 
 stack_element stack::top()
 {
@@ -58,6 +116,19 @@ stack_element stack::top()
 		return s_top->data;
 	}
 }
+
+/**************************************************************************************************************
+* Name: Copy Constructor
+*
+* Precondition: A stack object exists if it was declared
+*
+* Postcondition: Copies the contents of a Stack that was passed into the argument to the object
+* that was initialized
+*
+* Description: copies the contents of a Stack to another stack object
+*
+***************************************************************************************************************/
+
 
 stack::stack(const stack& Org)
 {
@@ -74,27 +145,19 @@ stack::stack(const stack& Org)
 	}
 }
 
+
+/**************************************************************************************************************
+* Name: Empty
+*
+* Precondition: A stack object exists if it was declared
+*
+* Postcondition: returned true if the stack was empty, false if it was not empty
+*
+* Description: returns true if the stack is empty
+*
+***************************************************************************************************************/
+
 bool stack::empty()
 {
 	return s_top == 0;
 }
-/*
-int main()
-{
-	stack S;
-
-	S.push("a");
-	S.push("b");
-	S.push("c");
-	S.push("d");
-	S.push("e");
-	S.push("f");
-	S.push("g");
-	S.print();
-
-	cout << endl << endl;
-	stack Y = S;
-	Y.print();
-
-	return 0;
-}*/
