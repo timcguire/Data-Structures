@@ -1,1 +1,4 @@
-﻿  Module7.vcxproj -> C:\DevProg\Data Structures\Module7\Debug\Module7.exe
+﻿  infix.cpp
+C:\DevProg\Data Structures\Module7\Module7\infix.cpp(83,21): warning C4018: '<': signed/unsigned mismatch
+C:\DevProg\Data Structures\Module7\Module7\infix.cpp(48): warning C4715: 'read_operator': not all control paths return a value
+  Module7.vcxproj -> C:\DevProg\Data Structures\Module7\Debug\Module7.exe
