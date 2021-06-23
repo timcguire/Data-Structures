@@ -1,0 +1,67 @@
+Washington 24935
+Walton 55793
+Wakulla 30978
+Volusia 494804
+Union 15388
+Taylor 22691
+Suwannee 41972
+Sumter 97756
+St Lucie 280379
+St Johns 195823
+Seminole 425071
+Sarasota 38213
+Santa Rosa 154104
+Putnam 74041
+Polk 609492
+Pinellas 917398
+Pasco 466457
+Palm Beach 1.33519e+06
+Osceola 276163
+Orange 1.16911e+06
+Okeechobee 40140
+Okaloosa 183482
+New County 234658
+Nassau 74195
+Monroe 73873
+Martin 147495
+Marion 332529
+Manatee 327142
+Madison 19115
+Liberty 8314
+Levy 40156
+Leon 277971
+Lee 631330
+Lake 301019
+Lafayette 8942
+Jefferson 14658
+Jackson 49292
+Indian River 138894
+Holmes 19873
+Hillsborough 1.26778e+06
+Highlands 98630
+Hernando 173094
+Hendry 39089
+Hardee 27887
+Hamilton 14671
+Gulf 15844
+Glades 12635
+Gilchrist 17004
+Gadsden 46151
+Franklin 11596
+Flagler 97376
+Escambia 299114
+Duval 870709
+Dixie 16486
+DeSoto 34894
+Columbia 67485
+Collier 328134
+Clay 192970
+Citrus 140031
+Charlotte 160511
+Calhoun 14750
+Broward 1.78017e+06
+Brevard 543566
+Bradford 28255
+Bay 169856
+Baker 27154
+Alachua 249365
